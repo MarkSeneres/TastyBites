@@ -1,0 +1,152 @@
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+/****** Navbar ******/ 
+nav{
+   background: #ffffff!important;
+   box-shadow: 1px 1px 2px #4444;
+}
+.navbar-brand .nav-link{
+   font-size: 18px;
+   margin: auto;
+}
+.carousel-inner .carousel-item{
+   width: 100;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.carousel-inner .carousel-item::after{
+   content: "";
+   background-color: #4444;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+.carousel-inner .carousel-caption{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   bottom: 0;
+   top: 35%;
+   left: 0;
+   right: 0;
+}
+
+.carousel-inner .carousel-caption span{
+   color:#000000;
+}
+.carousel-inner .carousel-caption h1{
+   color: #000000!important;
+   font-size: 42px;
+   font-weight: 600;
+   width: 80%;
+   margin: 0px auto 10px auto;
+}
+.carousel-inner .carousel-caption p{
+   font-size: 25px;
+   width: 80%;
+   margin: 0px auto 20px auto;
+   color: #ffffff;
+}
+
+@media (max-width: 768px)
+{
+   .carousel-inner .carousel-caption h1{
+    font-size: 38px;
+   }
+}
+
+@media(max-width: 577px)
+{
+  .carousel-inner .carousel-caption h1{
+   font-size: 25px;
+  }
+  .carousel-inner .carousel-caption p{
+    font-size: 13px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Website Name: Tasty Bites
+
+Who is the site for?
+The site is for customers who want to explore the menu, place online food orders, and learn more about the restaurant.
+
+What do they expect to find or do there?
+Customers expect to find the restaurant's menu, easily place online food orders, view special promotions, learn about the restaurant's story and values, and find contact information.
+
+Sample of similar websites:
+
+ExampleRestaurant.com: I like the clean and modern design of this website. The menu is well-organized, and the online ordering process is straightforward. However, it lacks information about the restaurant's story or values.
+YummyDiner.com: I appreciate how this website showcases the restaurant's history and provides an engaging visual experience with vibrant food images. However, the online ordering process could be more intuitive.
+Pages/Sections of the Website:
+
+Homepage
+Menu
+About Us
+Gallery
+Contact Us
+Wireframe for the Pages/Sections:
+
+Homepage:
+
+This section features an appealing hero image with a tagline and a prominent "Order Now" button.
+It also includes sections for special promotions, customer testimonials, and a brief introduction to the restaurant.
+Menu:
+
+This section displays different categories of food items (appetizers, main courses, desserts, etc.) with their respective photos, descriptions, and prices.
+Customers can add items to their cart directly from the menu page.
+Online Ordering:
+
+This section provides a form where customers can enter their delivery address, select items from the menu, customize their order, and choose their preferred delivery time.
+Accepted payment methods and any delivery charges or minimum order requirements are clearly mentioned.
+About Us:
+
+This section highlights the restaurant's history, mission, and commitment to quality.
+It includes information about the chefs, their culinary expertise, and the sourcing of ingredients.
+An engaging photo gallery showcases the restaurant's ambiance and food preparation.
+Special Offers:
+
+This section highlights ongoing promotions, seasonal menus, or discounts.
+It includes eye-catching banners or cards that provide details of each offer.
+Contact Us:
+
+This section includes the restaurant's contact information, including phone number, email address, and physical address.
+It may also include a contact form for general inquiries or feedback./*
