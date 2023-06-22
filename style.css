@@ -2,6 +2,11 @@ body {
    font-family: 'Roboto', sans-serif;
 }
 
+/****** section-heading  ******/ 
+.section-heading {
+   color: #6F5437;
+}
+
 /****** Navbar ******/ 
 nav{
    background: #ffffff!important;
