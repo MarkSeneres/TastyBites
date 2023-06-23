@@ -5,19 +5,23 @@
   <!-- Required meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mini Project 1</title>
+  <title>Tasty Bites</title>
 
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand fw-bold" href="#"><img src="./photos/Logo.png" alt="website Logo" width="150"
           height="150"></a>
@@ -28,16 +32,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#menu">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#Menu">Menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -55,7 +56,7 @@
   <!-- Navbar End-->
 
   <!-- Homepage -->
-  <header>
+  <header id="home">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -108,15 +109,17 @@
   <section id="about">
     <div class="about mt-5 mb-5">
       <div class="container">
+        <!--Selection head start-->
         <h2 class="responsive fw-bold text-center my-2">
           About
         </h2>
         <p class="text-center w-responsive mx-auto mb-1">It may mention the restaurant's commitment to using locally
           sourced ingredients or supporting sustainable practices.</p>
-        
+        <!--Selection head End-->
+
         <div class="row pt-5">
           <div class="col-md-6 align-items-stretch">
-            <img class="img-fluid" src="./photos/chef.jpg" width="1000" alt="Chef">
+            <img class="img-fluid" src="./photos/chef.jpg" height="500px" alt="Chef">
           </div>
           <div class="col-md-6">
             <h2 class="h2-responsive fw-bold text-start section-heading">The Chef</h2>
@@ -158,8 +161,8 @@
  
   <!--Menu start-->
   <main>
-    <section id="Menu">
-      <div class="container-fluid">
+   <section id="Menu mt-5 mb-5">
+      <div class="container">
          <div>
             <h3 class="responsive fw-bold text-center my-2">
               MENU
@@ -171,37 +174,61 @@
 
             <div class="row pt-5">
               <div class="col-md-4 d-flex flex-column align-items-stretch">
-                <img src="./photos/food-menu.png" alt="food menu">
+                <img src="./photos/food-menu.png" height="400" alt="food menu">
               </div>
              
               <div class="col-md-4 d-flex flex-column align-items-stretch">
-                <img src="./photos/restaurant-menu.png" alt="restaurant menu">
+                <img src="./photos/restaurant-menu.png" height="400" alt="restaurant menu">
               </div>
              
               <div class="col-md-4 d-flex flex-column align-items-stretch">
-                <img src="./photos/special-menu.jpg" alt="special menu">
+                <img src="./photos/special-menu.jpg" height="400" alt="special menu">
               </div>
             </div>
          </div>
       </div>
     </section>
+    <!-- food picture -->
+    <section class="container">
+     <div class="row pt-5">
+        <div class="col-md-3 d-flex flex-column align-items-stretch">
+          <img src="./photos/healthyfoods.jpg"  height="150" alt="healthy foods">
+        </div>
+       
+        <div class="col-md-3 d-flex flex-column align-items-stretch">
+           <img src="./photos/healthyfoods2.jpg" height="150" alt="healthy foods2">
+        </div>
+
+        <div class="col-md-3 d-flex flex-column align-items-stretch">
+          <img src="./photos/healthyfooods3.jpg" height="150" alt="healthy fooods3">
+       </div>
+
+       <div class="col-md-3 d-flex flex-column align-items-stretch">
+          <img src="./photos/healthy4.jpg" height="150" alt="healthy4">
+       </div>
+     </div>
+   </section>
   </main>
+  <br>
+ <!-----footer start------>
+ <footer id="contact mt-5 mb-5">
+  <p>Tasty Bites</p>
+  <p>Go to my page - click the button below</p>
+  <br>
+  <br>
+  <div class="social">
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  </div> 
+  <br><br>
+  <br><br>
+  <p class="end">CopyRight By Mark Dave Seneres</p>
+ </footer>
 
-  <!-- Menu -->
-  <section class="container">
-    <!-- Menu categories and items -->
-  </section>
 
-  <!-- Gallery -->
-  <section class="container">
-    <!-- photos of the foods -->
-  </section>
 
-  <!-- Contact Us -->
-  <section class="container">
-    <!-- Contact information and contact form -->
-  </section>
-
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
